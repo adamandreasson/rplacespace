@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         r/place Spaceflight Template
 // @namespace    http://tampermonkey.net/
-// @version      0.7
+// @version      0.8
 // @description  Template for spaceflight graphic
 // @author       /u/fiercedude and updated by /u/byteyotta
 // @match        https://hot-potato.reddit.com/embed*
@@ -11,6 +11,11 @@
 // @grant        none
 // ==/UserScript==
 
+/**
+ *
+ *    Original script by /u/fiercedude updated at Apr 2, ~15:00 UTC by /u/byteyotta. For update requests, ping @subutai in the Spaceflight r/place Discord
+ *
+ */
 if (window.top !== window.self) {
 	window.addEventListener(
 		"load",
@@ -21,8 +26,10 @@ if (window.top !== window.self) {
 				.shadowRoot.children[0].appendChild(
 					(function () {
 						const i = document.createElement("img");
+						const cacheCode = Math.floor(Date.now() / 100000);
 						i.src =
-							"https://cdn.discordapp.com/attachments/182512780425822209/959825803791720488/trans_space_logo_v8.png";
+							"https://raw.githubusercontent.com/adamandreasson/rplacespace/main/trans_space_logo_dynamic.png?cache=" +
+							cacheCode;
 						i.style =
 							"position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 1000px;height: 1000px;";
 						console.log(i);
