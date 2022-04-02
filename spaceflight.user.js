@@ -3,9 +3,11 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.7
 // @description  Template for spaceflight graphic
-// @author       /u/fiercedude
+// @author       /u/fiercedude and updated by /u/byteyotta
 // @match        https://hot-potato.reddit.com/embed*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=reddit.com
+// @updateURL    https://github.com/adamandreasson/rplacespace/raw/main/spaceflight.user.js
+// @downloadURL  https://github.com/adamandreasson/rplacespace/raw/main/spaceflight.user.js
 // @grant        none
 // ==/UserScript==
 
