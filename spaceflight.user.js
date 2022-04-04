@@ -28,7 +28,7 @@ if (window.top !== window.self) {
 						const i = document.createElement("img");
 						const cacheCode = Math.floor(Date.now() / 100000);
 						i.src =
-							"https://raw.githubusercontent.com/adamandreasson/rplacespace/main/trans_space_logo_dynamic.png?cache=" +
+							"https://raw.githubusercontent.com/adamandreasson/rplacespace/main/last_day_final.png?cache=" +
 							cacheCode;
 						i.style =
 							"position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 1000px;height: 1000px;";
