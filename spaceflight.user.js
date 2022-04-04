@@ -31,7 +31,7 @@ if (window.top !== window.self) {
 							"https://raw.githubusercontent.com/adamandreasson/rplacespace/main/last_day_final.png?cache=" +
 							cacheCode;
 						i.style =
-							"position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 1000px;height: 1000px;";
+							"position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 2000px;height: 2000px;";
 						console.log(i);
 						return i;
 					})()
